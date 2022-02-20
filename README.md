@@ -7,7 +7,16 @@ Additional documentation on the individual steps of the script can be found with
 How to run the notebook: 
 *************************
 
-1) Install the dependencies as described in "requirements.txt"
-2) Run the TarNet.ipynb. 
+1) Run the below in your terminal to setup a new python environement based on "requirements.txt" and start a jupyter notebook: 
+python3 -m venv tarnet
+source tarnet/bin/activate
+pip install -r requirements.txt
+ipython kernel install --user --name=tarnet
+jupyter notebook
+
+2) Change ipython kernel to "tarnet" and run "TarNet.ipynb"
 
 Note the script automatically downloads the IHDP dataset from "https://github.com/vdorie/npci/raw/master/examples/ihdp_sim/data/ihdp.RData". 
+
+
+
