@@ -1,6 +1,6 @@
 # Implementation of TarNet in pytorch 
 
-The notebook "TarNet.ipynb" define and trains a TarNet on the IHDP dataset. Model tuning simply selects the model with the lowest error on the validation set. No further tuning for "number of epochs", "batch size" or "learning rate" is currently implemented. 
+The notebook "TarNet.ipynb" defines and trains a TarNet on the IHDP dataset. Model tuning simply selects the model with the lowest error on the validation set. No further tuning for "number of epochs", "batch size" or "learning rate" is currently implemented. 
 
 Additional documentation on the individual steps of the script can be found within the notebook. 
 
